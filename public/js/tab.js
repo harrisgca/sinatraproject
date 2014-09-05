@@ -10,7 +10,10 @@ $(document).ready(function(){
 
     $.each(nbaArr, function(idx,val){
       nbaHTML += '<li>';
+      nbaHTML += '<a href=';
+      nbaHTML += "'http://www.reddit.com" + nbaArr[idx].data.permalink + "'>";
       nbaHTML += nbaArr[idx].data.title;
+      nbaHTML += '</a>';
       nbaHTML += '</li>';
       nbaHTML += "<hr>";
     });
@@ -25,7 +28,10 @@ $(document).ready(function(){
 
     $.each(nflArr, function(idx,val){
       nflHTML += '<li>';
+      nflHTML += '<a href=';
+      nflHTML += "'http://www.reddit.com" + nflArr[idx].data.permalink + "'>";
       nflHTML += nflArr[idx].data.title;
+      nflHTML += '</a>';
       nflHTML += '</li>';
       nflHTML += '<hr>';
     });
@@ -39,7 +45,10 @@ $(document).ready(function(){
 
     $.each(soccerArr, function(idx,val){
       soccerHTML += '<li>';
+      soccerHTML += '<a href=';
+      soccerHTML += "'http://www.reddit.com" + soccerArr[idx].data.permalink + "'>";
       soccerHTML += soccerArr[idx].data.title;
+      soccerHTML += '</a>';
       soccerHTML += '</li>';
       soccerHTML += '<hr>';
     }); //end soccerCallback
