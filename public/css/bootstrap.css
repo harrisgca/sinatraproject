@@ -2343,9 +2343,11 @@ output {
   color: #333333;
 }
 .form-control {
-  display: block;
-  width: 100%;
+  display: inline-block;
+  width: 75%;
+  text-align: center;
   height: 40px;
+  margin-top: 15px;
   padding: 8px 12px;
   font-size: 16px;
   line-height: 1.42857143;
