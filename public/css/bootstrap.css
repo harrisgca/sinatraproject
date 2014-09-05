@@ -6300,13 +6300,47 @@ legend {
 }
 
 .wrapper{
-  margin: 50px 250px;
+  margin: 50px;
 }
 
 .page-title{
   text-align: center;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .page-tabs{
   text-align: center;
+}
+
+.header-image{
+  margin: auto;
+  max-width: 450px;
+}
+.content{
+  margin-top: 50px;
+}
+.content .title{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Varela Round', sans-serif;
+}
+.content li{
+  list-style-image: url('/images/arrow.png');
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+#nba{
+  background-color: rgba(216,67,67,0.6);
+  padding: 8px;
+  border-radius: 40px;
+}
+#nfl{
+  background-color: rgba(49,176,11,0.6);
+  padding: 8px;
+  border-radius: 40px;
+}
+#soccer{
+  background-color: rgba(25,60,160,0.6);
+  padding: 8px;
+  border-radius: 40px;
 }
